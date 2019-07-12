@@ -1,0 +1,19 @@
+recursion capability
+    SCM awareness (git, primarily)
+
+optional local caching of
+    available versions
+    dependencies
+
+ability to install multiple versions of the same package
+
+maximum concurrency with gevent, since almost everything is i/o bound
+
+arbitrary requirement groups
+
+sub-environments for fast switching between
+
+ability to specify base directory
+
+all envvars able to be passed in on CLI call
+    or from .env file (optionally!)
